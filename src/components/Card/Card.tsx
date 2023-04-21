@@ -10,5 +10,5 @@ import CardPropsType from "@dxc-technology/halstack-react/card/types";
  * SkipContainerWrapper, NonResizableWrapper
  */
 export default function Card(props: CardPropsType) {
-  return <div><DxcCard {...props} /></div>;
+  return <DxcCard {...props} />;
 }

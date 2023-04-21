@@ -9,5 +9,5 @@ import ButtonPropsType from "@dxc-technology/halstack-react/button/types";
  * SkipContainerWrapper, NonResizableWrapper
  */
 export default function Button(props: ButtonPropsType) {
-  return <div><DxcButton {...props} /></div>;
+  return <DxcButton {...props} />;
 }
